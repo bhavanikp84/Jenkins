@@ -15,6 +15,7 @@ pipeline {
                 echo 'Hello Jenkins'
                 echo 'How are you doing!!'
                 sh 'date'
+                sh 'sleep 10'
             }
         }
     }
