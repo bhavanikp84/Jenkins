@@ -9,5 +9,13 @@ pipeline {
                 sh 'node --version'
             }
         }
+
+        stage('jenkins') {
+            steps {
+                echo 'Hello Jenkins'
+                echo 'How are you doing!!'
+                sh 'date'
+            }
+        }
     }
 }
